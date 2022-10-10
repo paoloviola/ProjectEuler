@@ -2,6 +2,7 @@
 
 namespace ProjectEuler.Chapter4
 {
+    [ProblemSolved]
     internal class Problem33 : IProblem
     {
         public string Name => "Digit cancelling fractions";

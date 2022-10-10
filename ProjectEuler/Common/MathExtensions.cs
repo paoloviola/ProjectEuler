@@ -20,6 +20,16 @@
             return numDivisors;
         }
 
+        public static long Factorial(this int num)
+        {
+            long product = 1L;
+            for(int i = 1; i <= num; i++)
+            {
+                product *= i;
+            }
+            return product;
+        }
+
         public static bool IsPrime(this int num)
         {
             return IsPrime((long)num);
